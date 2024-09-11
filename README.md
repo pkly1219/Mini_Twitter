@@ -26,14 +26,10 @@ The project is structured into several classes that handle different functionali
 
 ## Running the Application
 To run the application, execute the Driver class, which will launch the GUI. From the control panel, you can:
-
-Create new users and groups.
-
-Assign users to groups.
-
-Follow other users.
-
-Post tweets and view real-time updates.
+- Create new users and groups.
+- Assign users to groups.
+- Follow other users.
+- Post tweets and view real-time updates.
 
 ## Design Patterns
 
