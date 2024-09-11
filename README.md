@@ -28,19 +28,25 @@ The project is structured into several classes that handle different functionali
 To run the application, execute the Driver class, which will launch the GUI. From the control panel, you can:
 
 Create new users and groups.
+
 Assign users to groups.
+
 Follow other users.
+
 Post tweets and view real-time updates.
-Design Patterns
-Singleton Pattern
+
+## Design Patterns
+
+### Singleton Pattern
+
 The Admin Control Panel follows the Singleton pattern, ensuring that there is only one instance of the control panel throughout the application’s lifecycle.
 
-Observer Pattern
+### Observer Pattern
 The Observer pattern is used to notify followers in real-time when a user posts a new tweet. When a user posts a tweet, their followers (observers) are immediately updated with the new information.
 
-Visitor Pattern
+### Visitor Pattern
 The Visitor pattern allows operations to be performed on users and groups in a flexible and maintainable way. It provides a mechanism to separate operations from the objects on which they operate.
 
-Composite Pattern
+### Composite Pattern
 The Composite pattern is utilized to manage users and groups in a tree structure, allowing the application to treat individual users and groups uniformly.
 
