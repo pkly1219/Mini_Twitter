@@ -24,7 +24,7 @@ The project is structured into several classes that handle different functionali
 - User.java: Represents individual users who can post tweets and follow others.
 - Group.java: Represents groups of users, allowing hierarchical organization and management.
 
-Running the Application
+## Running the Application
 To run the application, execute the Driver class, which will launch the GUI. From the control panel, you can:
 
 Create new users and groups.
